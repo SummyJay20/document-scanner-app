@@ -362,4 +362,8 @@ Action Items:
   );
 };
 
-export default PaperScanApp;
+import PaperScanApp from './components/PaperScanApp';
+
+export default function App() {
+  return <PaperScanApp />;
+}
